@@ -37,3 +37,87 @@ font-family:inherit;
 cursor:pointer;
 
 }
+
+/* NAVIGATION */
+
+.navbar{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:20px 8%;
+
+background:white;
+
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+
+position:sticky;
+
+top:0;
+
+z-index:1000;
+
+}
+
+.logo{
+
+font-size:30px;
+
+font-weight:700;
+
+color:#2563eb;
+
+}
+
+.nav-links{
+
+display:flex;
+
+gap:35px;
+
+list-style:none;
+
+}
+
+.nav-links a{
+
+font-weight:500;
+
+transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+color:#2563eb;
+
+}
+
+.login-btn{
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+padding:12px 24px;
+
+border-radius:10px;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.login-btn:hover{
+
+background:#1d4ed8;
+
+transform:translateY(-2px);
+
+}
